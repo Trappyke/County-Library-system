@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1644239720 source:c:\users\westo\documents\county library system\main.c
+	<stdio.h>
+	<stdlib.h>
+
