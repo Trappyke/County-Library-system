@@ -47,9 +47,9 @@ void execute_action(int action) {
 
 int main(){
     int action;
-    char title[100] = "COUNTY LIBRARY MANAGEMENT";
+    char title[100] = "COUNTY LIBRARY SYSTEM";
     char status[100] = "Welcome Weston";
-    printf("\n\n\n\t\t\t   *********************\n\t\t\t%s\n \t\t\t\    %s\n\t\t\t   ********************\n\n", title, status);
+    printf("\n\n\n\t\t\t   *********************\n\t\t\t%s\n \t\t\t    %s\n\t\t\t   ********************\n\n", title, status);
     action = menu();
     execute_action(menu());
     return 0;
