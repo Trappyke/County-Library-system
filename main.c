@@ -98,7 +98,7 @@ int main(){
     int action;
     char title[100] = "COUNTY LIBRARY MANAGEMENT";
     char status[100] = "Welcome Weston";
-    printf("\n\n\n\t\t\t   *********************\n\t\t\t%s\n \t\t\t\    %s\n\t\t\t   ********************\n\n", title, status);
+    printf("\n\n\n\t\t\t   *********************\n\t\t\t%s\n \t\t\t    %s\n\t\t\t   ********************\n\n", title, status);
     execute_action(menu());
     return 0;
 }
